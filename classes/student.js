@@ -15,7 +15,7 @@ class Student extends Person {
   }
 
   introduce() {
-    //return `Hi, I'm ${this.firstName} ${this.lastName}, and I'm ${this.age} years old.`;
+    return `Hello. I am ${this.firstName} ${this.lastName}, and I study ${this.major}.`;
   }
 
   static compareGPA(student1, student2) {
